@@ -13,7 +13,7 @@ Welcome to my weekly college football Top 25!
 
 Here are my calculated rankings for college football after Week 7! 
 
-![](/makenna-hack.github.io/publications/opp_adj_rankings/top_25_week7.png)
+![](/makenna-hack.github.io/posts/opp_adj_rankings/top_25_week7.png)
 
 
 
