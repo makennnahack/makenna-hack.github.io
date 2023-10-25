@@ -7,6 +7,8 @@ tags:
   - top 25
 ---
 
+Welcome to my weekly college football Top 25!
+
 ## Week 7
 
 Here are my calculated rankings for college football after Week 7! 
