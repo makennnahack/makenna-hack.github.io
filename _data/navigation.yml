@@ -10,7 +10,7 @@ main:
  #   url: /teaching/    
     
   - title: "Blog Posts"
-    url: /makenna-hack.github.io/posts/
+    url: /makenna-hack.github.io/_posts/
         
   - title: "Portfolio Projects"
     url: /portfolio/
