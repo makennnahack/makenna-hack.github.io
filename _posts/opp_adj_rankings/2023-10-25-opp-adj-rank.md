@@ -1,6 +1,11 @@
 ---
-title: "Makenna's Top 25"
-collection: posts
+title: 'Makenna's CFB Top 25'
+date: 2023-10-25
+permalink: /posts/2023/10/opp-adj-rank/
+tags:
+  - cool posts
+  - category1
+  - category2
 ---
 
 ## Week 7
