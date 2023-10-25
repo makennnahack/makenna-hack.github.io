@@ -117,7 +117,7 @@ The "rbind()" function will bind each decade data set by each row, so we have al
 
 Here is a glimpse of the data set I have just built. This is the first 2000s decade from 2000 to 2009. 
 
-![](/makenna-hack.github.io/portfolio/height_analysis/qb_final_data.png)
+![](/makenna-hack.github.io/portfolio/off_heights_post/qb_final_data.png)
 
 ### Wide Receivers and Tight Ends
 
@@ -391,7 +391,7 @@ Finally, the analysis we have been waiting for!
 
 Let's start with looking at the season by season means for each position. 
 
-![](/makenna-hack.github.io/portfolio/height_analysis/mean_plot.jpg)
+![](/makenna-hack.github.io/portfolio/off_heights_post/mean_plot.jpg)
 
 Looking at these plots, we can conclude many things. Starting with the quarterback position, we can see the average height for a QB increased heavily going into 2009. It was a pretty fast increase. From then to about 2016, there was somewhat of a stead increase. This recent decrease in average height could be due to the fact that teams now want more of a threat at QB. This means that a mobile quarterback is more valuable. Someone who can scramble when needed and maybe pick up a few yards or a first down, rather than a guy who lingers in the pocket. Good runners tend to not be as tall, meaning this could be a potential reason for a decreasing average. 
 
@@ -401,7 +401,7 @@ Next, the tight end position has been on a steady increase since 2000, but we se
 
 Lastly, looking at running backs, we can see not only is this the shortest skill position on offense, but the mean height has been steadily decreasing since the start of the century. A few spikes to note here and there, but essentially RBs are getting shorter. This could be due to two reasons. First, as mentioned in the QB summary, shorter rushers tend to be more efficient. They are also harder to tackle. Two, a shorter back is easier to hide in an offensive formation. Teams can hide their RB behind linemen to divert the attention from the ball carrier.
 
-![](/makenna-hack.github.io/portfolio/height_analysis/dist_plot.jpg)
+![](/makenna-hack.github.io/portfolio/off_heights_post/dist_plot.jpg)
 
 Now, looking at the plot of each distribution in the three decades, the mean pattern is clear. WR and RB average height has not change much decade to decade. TE average height has clearly gotten larger and on the other side QB height has increased from the 2000s to the 2010s, and has since inched back, and even under, the mean from the 2000s. These trends were all pretty aparent when looking at the season to season plots. 
 
