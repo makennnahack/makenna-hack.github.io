@@ -1,5 +1,5 @@
 ---
-title: 'Makenna's CFB Top 25'
+title: "Makenna's CFB Top 25"
 date: 2023-10-25
 permalink: /posts/2023/10/opp-adj-rank/
 tags:
