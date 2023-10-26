@@ -2,6 +2,7 @@
 title: "College Football Top 25 using Oppnent Adjusted EPA and Massey Ratings"
 excerpt: "An in-depth explantation of college football oppenent adjustment EPA using ridge regression and using this adjusted EPA to calculate the CFB top 25 weekly, using the Massey rating system."
 collection: portfolio
+excerpt: 2023-09-01
 ---
 
 ## Introduction
