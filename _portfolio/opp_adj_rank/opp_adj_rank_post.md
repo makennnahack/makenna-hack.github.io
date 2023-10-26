@@ -1,8 +1,7 @@
 ---
 title: "Makenna's CFB Top 25"
 date: 2023-10-25
-permalink: /posts/2023/10/opp-adj-rank/
-excerpt_separator: <!--more-->
+excerpt: My weekly CFB Top 25 based on Opponent Adjusted EPA and Massey Ratings
 toc: true
 tags:
   - football
@@ -10,13 +9,12 @@ tags:
 ---
 
 Welcome to my weekly college football Top 25!
-<!--more-->
 ## Week 7
 
 Here are my calculated rankings for college football after Week 7! 
 
 
-![](/makenna-hack.github.io/posts/top_25_week7.png)
+![](/makenna-hack.github.io/portfolio/top_25_week7.png)
 
 ## Week 6
 
