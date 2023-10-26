@@ -2,6 +2,7 @@
 title: "Height Analysis in the NFL by Offensive Positon"
 excerpt: "An in-depth analysis of height trends of offensive skill positons in the NFL"
 collection: portfolio
+toc: true
 ---
 
 ## Introduction 
