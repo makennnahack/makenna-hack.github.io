@@ -1,7 +1,7 @@
 # main links links
 main:
- # - title: "Publications"
-  #  url: /publications/
+  - title: "Blog Posts"
+    url: /publications/
 
 #  - title: "Talks"
  #   url: /talks/    
@@ -13,7 +13,7 @@ main:
     url: /portfolio/
         
   - title: "Blog Posts"
-    url: /year-archive/
+    url: /posts/
     
   - title: "About Me/Resume"
     url: /files/Makenna_Hack_2023_0911.pdf
