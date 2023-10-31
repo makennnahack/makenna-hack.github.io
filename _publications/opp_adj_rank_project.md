@@ -106,7 +106,7 @@ rownames(defense) <- NULL
 defense$team <- gsub("^def_pos_team", "", defense$team)
 ```
 
-The last step of this regression is to clean up both the offense and defense data we have created and combine them into one big data set. We can also add in the original, raw EPA to compare to our new opponent adjusted EPA. Lastly, we can do one final filter to ensure we only have FBS teams left in the set. We can do this by loading in the cfb team data set (an API key is needed) and filtering for the `keep.conf` list made earier. 
+The last step of this regression is to clean up both the offense and defense data we have created and combine them into one big data set. We can also add in the original, raw EPA to compare to our new opponent adjusted EPA. 
 
 ```
 off_epa_game <- pbp|> filter(!is.na(EPA)) |> group_by(game_id) |> 
@@ -124,6 +124,31 @@ def_epa_game <- pbp|> filter(!is.na(EPA)) |> group_by(game_id) |>
                                                         rawDefEPA, adjDefEPA) |> ungroup()
 
 opp.adj <- off_epa_game |> left_join(def_epa_game, by = c("game", "player"))
+```
+
+Let's also make sure we have the opponent's opponent adjusted EPA for each team and each game. Lastly, we can do one final filter to ensure we only have FBS teams left in the set. We can do this by loading in the cfb team data set (an API key is needed) and filtering for the `keep.conf` list made earier. 
+
+```
+swapped_data <- opp.adj |>
+  group_by(game) |>
+  mutate(player = if (n() == 2) rev(player) else player) |>
+  ungroup()
+
+swapped_data <- swapped_data |> select(game,
+                                       opprawOffEPA = rawOffEPA,
+                                       oppadjOffEPA = adjOffEPA,
+                                       opprawDeffEPA = rawDefEPA,
+                                       oppadjDefEPA = adjOffEPA)
+
+opp.adj.temp <- opp.adj |> left_join(swapped_data, by = c("game"))
+
+opp.adj.temp <- opp.adj.temp |>
+  group_by(game, player) |>
+  filter(adjOffEPA != oppadjOffEPA) |>
+  ungroup() |> 
+  select(-rawOffEPA, -rawDefEPA, -opprawDeffEPA, -opprawOffEPA)
+
+opp.adj <- opp.adj.temp
 
 teams <- load_cfb_teams() |> select(school, conference)
 
@@ -216,6 +241,8 @@ show(rank.adj.epa)
 
 rank.data <- as.data.frame(rank.adj.epa)
 ```
+
+To further enhance our rating system and achieve the most accurate rankings, let's incorporate the team's total number of wins and then offset it by subtracting their total number of losses. This adjustment will ensure that a team's success in terms of victories plays a pivotal role in determining their ranking. With both the opponent adjustment, Massey Ratings, and wins, we should have created an equitable evaluation.
 
 ## Conclusion 
 
