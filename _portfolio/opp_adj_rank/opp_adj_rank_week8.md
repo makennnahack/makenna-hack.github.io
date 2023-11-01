@@ -1,6 +1,6 @@
 ---
 title: "Makenna's CFB Top 25 After Week 8"
-date: 2023-10-16
+date: 2023-10-23
 excerpt: My weekly CFB Top 25 based on Opponent Adjusted EPA and Massey Ratings
 toc: true
 tags:
