@@ -202,10 +202,10 @@ Now we are all set to model!
 
 ### Model 
 
-To create the model, use the `lm()` function in R. Out target variable is `Score` and the input variables are the adjusted EPA for both offense and defense for each team. You can view it using hte `summary()` function. 
+To create the model, use the `lm()` function in R. Out target variable is `Score` and the input variables are the adjusted EPA for both offense and defense for each team as well as their opponent's adjusted defensive EPA. You can view it using hte `summary()` function. 
 
 ```
-epa.mod <- lm(score ~ adjOffEPA + adjDefEPA, data = model.dat)
+epa.mod <- lm(score ~ adjOffEPA + adjDefEPA + oppadjDefEPA, data = model.dat)
 summary(epa.mod)
 ```
 
