@@ -1,3 +1,4 @@
+---
 title: "Makenna's CFB Top 25 After Week 12"
 date: 2023-11-20
 excerpt: My weekly CFB Top 25 based on Opponent Adjusted EPA and Massey Ratings
