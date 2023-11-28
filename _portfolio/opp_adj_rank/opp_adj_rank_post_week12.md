@@ -17,6 +17,8 @@ James Madsion was handed their fist loss in overtime this week. They fell to App
 
 The greatest game of the weekend came from Washington and Oregon State. The Huskies stayed on top almost all game, but in the fourth quarter they almost allowed the Beavers to come from behind. Washington won 22-20 with a big game from both star quarterbacks.
 
+This is setting up for a huge rivarly week this weekend! 
+
 Here are my calculated rankings for college football after Week 10! 
 
 ![](/makenna-hack.github.io/portfolio/opp_adj_rank/top_25_week12.png)
