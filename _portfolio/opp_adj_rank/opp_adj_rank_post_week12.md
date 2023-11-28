@@ -12,7 +12,7 @@ Welcome to my weekly college football Top 25!
 
 ## Week 12
 
-There wasn't much suprises after week 12 in college football. The Top 7 all stayed the same after beating their opponents this week. 
+There wasn't any suprises in week 12 of college football. The Top 7 all stayed the same after beating their opponents this week. 
 
 James Madsion was handed their fist loss in overtime this week. They fell to Appalachian State with a 26-23 final. This will unfortunatly knock JMU out of the Sun Belt Championship, but their bowl hopes can still be kept alive. As long as there are not enough teams that make it to 6 wins, there could be a postseason in store as a fist year FBS team.
 
