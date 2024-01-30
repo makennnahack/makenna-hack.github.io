@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-As a Statistics graduate The Ohio State University, I'm passionate about the intersection of statistics and sports. Currently, I'm a Data Scientist at NiSource. Here, I am learning how to apply data to the utilities industry and have broadend my technical skills in many ways. Previously, I was a Data Science Inter at SumerSports. This gave me the knowledge to leverage statistical techniques to extract insights from sports-related data. I'm excited to apply my skills in the field of sports analytics and contribute to data-driven decision-making in this dynamic industry.
+As a graduate in Statistics from The Ohio State University and a huge football fan, my enthusiasm lies at the thrilling intersection of statistics and sports. Currently serving as a Data Scientist at NiSource, I am immersed in the fascinating realm of applying data to the utilities industry, expanding my technical  skills along the way.
+
+My journey into the world of data in football began as a Data Science Intern at SumerSports, a pivotal experience that equipped me with the adeptness to leverage statistical techniques for extracting valuable insights from sports-related data. Here, I'm excited to apply my skills in the field of sports analytics and contribute to data-driven decision-making in this dynamic industry.
 
 Interests
 ======
