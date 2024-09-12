@@ -249,7 +249,9 @@ To further enhance our rating system and achieve the most accurate rankings, let
 In conclusion, we can get a pretty good CFB ranking using adjusted EPA and the Massey Rating Method. There is no perfect way to rate and rank teams, but this was just a fun project to do and see the result. Thank you for following my analysis and I hope you learned something new! 
 
 
-
+## References: 
+1. https://blog.collegefootballdata.com/opponent-adjusted-stats-ridge-regression/
+2. https://masseyratings.com/
 
 
 
