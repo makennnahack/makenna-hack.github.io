@@ -18,3 +18,4 @@ Interests
 - Football
 - Sports Analytics
 - Marching Band
+- Fashion
